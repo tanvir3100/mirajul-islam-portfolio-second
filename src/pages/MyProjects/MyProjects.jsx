@@ -6,12 +6,13 @@ const Section = styled.div`
     scroll-snap-align: center;
 `
 
-const AboutMe = () => {
+
+const MyProjects = () => {
     return (
-        <Section id="#aboutMe">
-            <h2 className="text-4xl">This is about me section</h2>
+        <Section>
+            <h2 className="text-3xl">My projects section </h2>
         </Section>
     );
 };
 
-export default AboutMe;
+export default MyProjects;
