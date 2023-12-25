@@ -9,7 +9,7 @@ const Section = styled.div`
 
 const Contact = () => {
     return (
-        <Section className="bg-red-700">
+        <Section>
             <div className="h-[90vh]">
                 <h2 className="text-4xl">This is contact section</h2>
             </div>

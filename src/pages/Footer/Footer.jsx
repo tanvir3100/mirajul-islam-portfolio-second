@@ -4,8 +4,11 @@
 
 const Footer = () => {
     return (
-        <div className="bg-orange-800 h-full">
-            <h2 className="text-4xl">This is footer section</h2>
+        <div className="h-full w-full">
+            <hr className="w-[70%] mx-auto" />
+            <div className="w-full h-full flex justify-center items-center">
+                <h2 className="text-sm text-center text-white">This is footer section @Mirajul Isalam Tanvir</h2>
+            </div>
         </div>
     );
 };
