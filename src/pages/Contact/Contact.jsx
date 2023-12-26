@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Footer from "../Footer/Footer";
+import TextTitle from "../../hooks/TextTitle";
 
 
 const Section = styled.div`
@@ -11,7 +12,8 @@ const Contact = () => {
     return (
         <Section>
             <div className="h-[90vh]">
-                <h2 className="text-4xl">This is contact section</h2>
+            <TextTitle
+            header='CONTACT'/>
             </div>
             <div className="h-[10vh]">
                 <Footer />

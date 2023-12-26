@@ -1,0 +1,10 @@
+#drawer {
+    margin: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+#drawer::-webkit-scrollbar {
+    display: none;
+}

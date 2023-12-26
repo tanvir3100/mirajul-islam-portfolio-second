@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import TextTitle from '../../hooks/TextTitle'
 
 
 const Section = styled.div`
@@ -9,7 +10,8 @@ const Section = styled.div`
 const AboutMe = () => {
     return (
         <Section id="#aboutMe">
-            <h2 className="text-4xl">This is about me section</h2>
+            <TextTitle 
+            header='ABOUT ME'/>
         </Section>
     );
 };

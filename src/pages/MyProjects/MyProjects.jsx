@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import TextTitle from "../../hooks/TextTitle";
 
 
 const Section = styled.div`
@@ -10,7 +11,8 @@ const Section = styled.div`
 const MyProjects = () => {
     return (
         <Section>
-            <h2 className="text-3xl">My projects section </h2>
+            <TextTitle
+            header='MY PROJECTS'/>
         </Section>
     );
 };
