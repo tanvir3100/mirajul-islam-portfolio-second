@@ -14,7 +14,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-[#5b74e0] to-[#6c35a3] flex">
+    <div className="bg-[#02050a] flex">
       <div className='lg:w-[22%]'>
         <div className="drawer lg:drawer-open fixed w-full mt-4 lg:mt-0 flex justify-start">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="drawer-side" id="drawer">
             <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-            <ul className="menu p-4 w-44 lg:w-72 min-h-full bg-[#2d3144] text-base-content rounded-none border-none">
+            <ul className="menu p-4 w-44 lg:w-72 min-h-full bg-[#09101a] text-base-content rounded-none border-none">
               <div className="h-20 lg:h-36 flex items-center p-2 lg:p-4 bg-[#36394b] mb-4 lg:mb-6">
                 <h1 className="text-white text-xl lg:text-4xl">MD.MIRAJUL <br />ISLAM</h1>
               </div>
