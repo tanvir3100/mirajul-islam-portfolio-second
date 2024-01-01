@@ -10,7 +10,7 @@ const Section = styled.div`
 
 const Contact = () => {
     return (
-        <Section>
+        <Section id="contact">
             <div className="h-[90vh]">
             <TextTitle
             header='CONTACT'/>

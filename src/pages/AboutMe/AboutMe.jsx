@@ -9,7 +9,7 @@ const Section = styled.div`
 
 const AboutMe = () => {
     return (
-        <Section id="#aboutMe">
+        <Section id="aboutMe">
             <TextTitle 
             header='ABOUT ME'/>
         </Section>

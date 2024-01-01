@@ -9,7 +9,7 @@ const Section = styled.div`
 
 const Skills = () => {
     return (
-        <Section>
+        <Section id="skills">
             <TextTitle
                 header='SKILLS' />
         </Section>

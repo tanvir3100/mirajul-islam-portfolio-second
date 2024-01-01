@@ -8,11 +8,22 @@ import Blog from './pages/Blog/Blog'
 import Contact from './pages/Contact/Contact'
 import MyProjects from './pages/MyProjects/MyProjects'
 import './App.css'
+import { Link } from "react-scroll";
+// import { useState } from "react";
+
 
 
 
 
 function App() {
+
+  // const [click, setClick] = useState(false)
+  // const handleClick = () => setClick(!click)
+  // const closeClick = () => setClick(false)
+
+
+
+
   return (
     <div className="bg-[#02050a] flex">
       <div className='lg:w-[22%]'>
@@ -24,23 +35,25 @@ function App() {
           </div>
           <div className="drawer-side" id="drawer">
             <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-            <ul className="menu p-4 w-44 lg:w-72 min-h-full bg-[#09101a] text-base-content rounded-none border-none">
-              <div className="h-20 lg:h-36 flex items-center p-2 lg:p-4 bg-[#36394b] mb-4 lg:mb-6">
+            <ul className={"menu p-4 w-44 lg:w-72 min-h-full bg-[#09101a] text-base-content rounded-none border-none"}>
+              <div className="h-20 lg:h-36 flex items-center p-2 lg:p-4 bg-[#09101a] mb-4 lg:mb-6">
                 <h1 className="text-white text-xl lg:text-4xl">MD.MIRAJUL <br />ISLAM</h1>
               </div>
               {/* Sidebar content here */}
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg"><IoHome className="text-xl" />Home</a></li>
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg"><FaHatCowboy className="text-xl"/>About Me</a></li>
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg">Skills</a></li>
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg">My Projects</a></li>
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg">Blog</a></li>
-              <li className="text-white mb-2 p-0 lg:p-4"><a className="border border-white lg:p-4 rounded-lg lg:text-lg">Contact</a></li>
+              <li><Link to={'home'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'home' ? 'active' : ''}`}><IoHome className="text-xl" />Home</Link></li>
+              <li><Link to={'aboutMe'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'aboutMe' ? 'active' : ''}`}><FaHatCowboy className="text-xl" />About Me</Link></li>
+              <li><Link to={'skills'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'skills' ? 'active' : ''}`}>Skills</Link></li>
+              <li><Link to={'myProjects'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'myProjects' ? 'active' : ''}`}>My Projects</Link></li>
+              <li><Link to={'blog'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'blog' ? 'active' : ''}`}>Blog</Link></li>
+              <li><Link to={'contact'} spy={true} smooth={true} offset={50} duration={500} className={`border border-white lg:p-4 rounded-lg lg:text-lg ${window.location.hash === 'contact' ? 'active' : ''}`}>Contact</Link></li>
             </ul>
           </div>
         </div>
       </div>
       <div className='w-full lg:w-[78%]'>
-        <Home />
+        <div id="home">
+          <Home />
+        </div>
         <AboutMe />
         <Skills />
         <MyProjects />
