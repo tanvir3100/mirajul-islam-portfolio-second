@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import TextTitle from "../../hooks/TextTitle";
+import Navbar from "../../Components/Navbar/Navbar";
+// import TextTitle from "../../hooks/TextTitle";
 // import Navbar from "../../Components/Navbar/Navbar";
 
 const Section = styled.div`
@@ -10,8 +11,8 @@ const Section = styled.div`
 const Home = () => {
     return (
         <Section>
-            <TextTitle
-                header='HOME SECTION' />
+            <Navbar />
+            <p>home section</p>
         </Section>
     );
 };
