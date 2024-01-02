@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import Navbar from "../../Components/Navbar/Navbar";
-// import TextTitle from "../../hooks/TextTitle";
-// import Navbar from "../../Components/Navbar/Navbar";
 
 const Section = styled.div`
     height: 100vh;
@@ -10,9 +7,7 @@ const Section = styled.div`
 
 const Home = () => {
     return (
-        <Section>
-            <Navbar />
-            <p>home section</p>
+        <Section className="px-4 md:px-6 lg:px-12 mx-auto" id="home">
         </Section>
     );
 };
