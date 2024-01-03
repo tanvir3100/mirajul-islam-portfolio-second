@@ -11,11 +11,8 @@ import Navbar from './Components/Navbar/Navbar'
 
 
 function App() {
-
-  // className="bg-gradient-to-r from-[#171235] to-[#220c5f]"
-
   return (
-    <div className='bg-orange-600'>
+    <div className="bg-gradient-to-r from-[#171235] to-[#220c5f]">
       <div>
         <Navbar />
         <section id='home'>
