@@ -9,7 +9,7 @@ const Section = styled.div`
 
 const AboutMe = () => {
     return (
-        <Section className="px-4 md:px-6 lg:px-12 mx-auto">
+        <Section id="about" className="px-4 md:px-6 lg:px-12 mx-auto">
             <TextTitle 
             header='ABOUT ME'/>
         </Section>

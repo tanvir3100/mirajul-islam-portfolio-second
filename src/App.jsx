@@ -15,22 +15,22 @@ function App() {
     <div className="bg-gradient-to-r from-[#171235] to-[#220c5f]">
       <div>
         <Navbar />
-        <section id='home'>
+        <section>
           <Home />
         </section>
-        <section id='about'>
+        <section>
           <AboutMe />
         </section>
-        <section id='skills'>
+        <section>
           <Skills />
         </section>
-        <section id='myProjects'>
+        <section>
           <MyProjects />
         </section>
-        <section id='blog'>
+        <section>
           <Blog />
         </section>
-        <section id='contact'>
+        <section>
           <Contact />
         </section>
       </div>
