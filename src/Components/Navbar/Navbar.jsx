@@ -1,4 +1,4 @@
-import { Link, ScrollLink } from "react-scroll";
+import { Link } from "react-scroll";
 import '../../Components/Navbar.css'
 import { FaAngleDoubleUp } from "react-icons/fa";
 
@@ -20,7 +20,6 @@ const Navbar = () => {
                                 <li><Link className="hover:text-black" to="about">About</Link></li>
                                 <li><Link className="hover:text-black" to="skills">Skills</Link></li>
                                 <li><Link className="hover:text-black" to="myProjects">My Projects</Link></li>
-                                <li><Link className="hover:text-black" to="blog">Blogs</Link></li>
                                 <li><Link className="hover:text-black" to="contact">Contact</Link></li>
                             </ul>
                         </div>
@@ -32,18 +31,13 @@ const Navbar = () => {
                             <li><Link className="hover:text-black" to="about">About</Link></li>
                             <li><Link className="hover:text-black" to="skills">Skills</Link></li>
                             <li><Link className="hover:text-black" to="myProjects">My Projects</Link></li>
-                            <li><Link className="hover:text-black" to="blog">Blogs</Link></li>
                             <li><Link className="hover:text-black" to="contact">Contact</Link></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="bottom-10 right-10 fixed">
-                <ScrollLink to='home'>
-                    <div className="fixed">
-                        <FaAngleDoubleUp className="text-white" />
-                    </div>
-                </ScrollLink>
+            <div>
+                <FaAngleDoubleUp />
             </div>
         </div>
     );
