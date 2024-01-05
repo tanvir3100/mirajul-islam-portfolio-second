@@ -16,30 +16,22 @@ const Contact = () => {
         console.log(data)
     }
     return (
-        <Section id="contact" className="px-4 md:px-6 lg:px-12 mx-auto lg:h-[100vh]">
-            <div className="lg:h-[90vh]">
-                <div className="flex">
-                    <div className="hero min-h-screen w-full flex-1">
-                        <div className="hero-content w-full md:2/4 lg:w-2/4 flex-col lg:flex-row-reverse">
-                            <div className="card shrink-0 w-full rounded-none p-0 md:p-6 lg:p-20">
-                                <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
+        <Section id="contact" className="px-4 mx-auto lg:h-[100vh]">
+            <div className="lg:h-[90vh] flex flex-col lg:flex-row">
+                <div className="flex-1 mt-10 lg:mt-0">
+                    <div className="hero min-h-screen w-full">
+                        <div className="hero-content w-full md:2/4 lg:w-3/4 flex-col lg:flex-row-reverse">
+                            <div className="card shrink-0 w-full rounded-none p-0 md:p-6 lg:p-0">
+                                <form className="card-body w-full" onSubmit={handleSubmit(onSubmit)}>
+                                    <h3 className="text-xl text-white">CONTACT</h3>
                                     <div className="form-control">
-                                        <label className="label">
-                                            <span className="label-text text-white">Name</span>
-                                        </label>
-                                        <input id="input" {...register("name")} type="name" placeholder="name" className="input input-bordered rounded-none transparent-background" required />
+                                        <input id="input" {...register("name")} type="name" placeholder="name" className="input input-bordered rounded-none transparent-background text-white" required />
                                     </div>
                                     <div className="form-control">
-                                        <label className="label">
-                                            <span className="label-text text-white">Email</span>
-                                        </label>
-                                        <input id="input"  {...register("email")} type="email" placeholder="email" className="input input-bordered rounded-none" required />
+                                        <input id="input"  {...register("email")} type="email" placeholder="email" className="input input-bordered rounded-none text-white" required />
                                     </div>
                                     <div className="form-control">
-                                        <label className="label">
-                                            <span className="label-text text-white">Your Message</span>
-                                        </label>
-                                        <textarea  {...register("message")} className="textarea textarea-bordered  rounded-none bg-transparent" placeholder="Your Massage"></textarea>
+                                        <textarea  {...register("message")} className="textarea textarea-bordered  rounded-none bg-transparent h-32 text-white" placeholder="Your Massage"></textarea>
                                     </div>
                                     <div className="form-control mt-6">
                                         <input className="btn bg-emerald-600 rounded-none" type="submit" />
@@ -48,9 +40,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="z-50 flex-1">
-                        <Map />
-                    </div>
+                </div>
+                <div className="w-full flex-1">
+                    <Map />
                 </div>
             </div>
             <div className="lg:h-[10vh]">
