@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Footer from "../Footer/Footer";
 import { useForm } from "react-hook-form";
+import Map from '../../Components/Map/Map'
 import './Contact.css'
 
 
@@ -17,8 +18,8 @@ const Contact = () => {
     return (
         <Section id="contact" className="px-4 md:px-6 lg:px-12 mx-auto lg:h-[100vh]">
             <div className="lg:h-[90vh]">
-                <div>
-                    <div className="hero min-h-screen w-full">
+                <div className="flex">
+                    <div className="hero min-h-screen w-full flex-1">
                         <div className="hero-content w-full md:2/4 lg:w-2/4 flex-col lg:flex-row-reverse">
                             <div className="card shrink-0 w-full rounded-none p-0 md:p-6 lg:p-20">
                                 <form className="card-body" onSubmit={handleSubmit(onSubmit)}>
@@ -46,6 +47,9 @@ const Contact = () => {
                                 </form>
                             </div>
                         </div>
+                    </div>
+                    <div className="z-50 flex-1">
+                        <Map />
                     </div>
                 </div>
             </div>
