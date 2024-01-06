@@ -2,23 +2,14 @@
 import styled from "styled-components";
 // import { useTypewriter } from 'react-simple-typewriter'
 import { Typewriter } from 'react-simple-typewriter'
+import './Home'
 
 const Section = styled.div`
     scroll-snap-align: center;
 `
 
-
-
-
 const Home = () => {
-
-
-    // const { text } = useTypewriter({
-    //     words: ['MERN-STACK WEB DEVELOPER', 'junior-web developer'],
-    //     loop: {},
-    //     typeSpeed: 120,
-    //     deleteSpeed: 80,
-    // })
+ 
 
 
     return (
@@ -32,11 +23,11 @@ const Home = () => {
                     </div>
                     <div className="flex-1 flex">
                         <div>
-                            <h1 className="text-4xl font-bold text-white"><span className="text-2xl">Hello! I'M</span> <br />
-                                MIRAJUL ISLAM</h1>
-                            <h1 className="text-xl text-white">
-                                <span className="text-emerald-500 font-bold">
-                                    <Typewriter words={['FONT-END DEVELOPER', 'MERN-STACK DEVELOPER', 'REACT DEVELOPER']}
+                            <h1 className="text-white mb-2"><span className="text-4xl" id="font">Hello! I'M</span> <br />
+                                <span className="text-5xl">MD.MIRAJUL ISLAM</span></h1>
+                            <h1 className="text-xl text-white mt-3">
+                                <span className="text-emerald-500 text-3xl">
+                                    <Typewriter words={['FONT END DEVELOPER', 'MERN STACK DEVELOPER', 'REACT DEVELOPER']}
                                         loop={5}
                                         cursor
                                         cursorStyle='|'
@@ -44,8 +35,10 @@ const Home = () => {
                                         deleteSpeed={50}
                                         delaySpeed={1000} />
                                 </span>
+                                <br />
+                                <span className="text-3xl"></span>
                             </h1>
-                            <button className="btn btn-primary">Get Started</button>
+                            <button className="btn btn-primary mt-5">Get Started</button>
                         </div>
                     </div>
                 </div>
