@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import '../../Components/Navbar.css'
-import { FaAngleDoubleUp } from "react-icons/fa";
+
 
 
 
@@ -35,9 +35,6 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div>
-                <FaAngleDoubleUp />
             </div>
         </div>
     );

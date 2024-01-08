@@ -5,7 +5,6 @@ import Skills from './pages/Skills/Skills'
 import Contact from './pages/Contact/Contact'
 import MyProjects from './pages/MyProjects/MyProjects'
 import './App.css'
-import Navbar from './Components/Navbar/Navbar'
 
 
 
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="bg-gradient-to-r from-[#171235] to-[#220c5f]">
       <div>
-        <Navbar />
         <section>
           <Home />
         </section>

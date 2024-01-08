@@ -5,21 +5,15 @@ import TextTitle from '../../hooks/TextTitle'
 
 
 const Section = styled.div`
+    height: 100vh;
     scroll-snap-align: center;
 `
 
 const AboutMe = () => {
     return (
-        <Section id="about" className="px-4 md:px-6 lg:px-12 mx-auto relative">
+        <Section id="about" className="px-4 md:px-6 lg:px-12 mx-auto">
             <TextTitle
-                header='ABOUT ME' />
-            {/* <div className="w-10 h-10 border border-white rounded-full absolute">
-                <Link to="home">
-                    <div className="flex justify-center items-center pt-3">
-                        <FaAngleDoubleUp className="text-white text-xl" />
-                    </div>
-                </Link>
-            </div> */}
+                header='about' />
         </Section>
     );
 };
