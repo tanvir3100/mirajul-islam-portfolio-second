@@ -6,7 +6,6 @@ import { Fade } from "react-awesome-reveal";
 
 
 const Section = styled.div`
-    height: 100vh;
     scroll-snap-align: center;
 `
 
@@ -15,15 +14,13 @@ const AboutMe = () => {
         <Section id="about" className="">
             <div className="lg:min-h-screen w-full flex justify-center items-center">
                 <div className="hero-content flex-col lg:flex-row w-3/4 h-4/5 mt-10 lg:mt-0">
-                    <Fade direction="left">
-                        <div className="flex-1 flex justify-center items-center h-4/5 relative">
-                            <div className="w-64  absolute h-64 bg-[#42eeb5] left-16 bottom-10 rounded-xl animate-ping">
-                            </div>
+                    <div className="flex-1 flex justify-center items-center h-4/5 relative">
+                        <Fade direction="left">
                             <div className="z-50 mr-10">
                                 <img src="https://i.ibb.co/3Y65jnT/rsz-11untitled-design.jpg" className="max-w-80 rounded-xl" />
                             </div>
-                        </div>
-                    </Fade>
+                        </Fade>
+                    </div>
                     <div className="flex-1 flex">
                         <div>
                             <Fade direction="right">

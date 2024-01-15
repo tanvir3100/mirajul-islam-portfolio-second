@@ -7,6 +7,7 @@ import './Home'
 import { MeshDistortMaterial, OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Sphere } from "@react-three/drei";
+import { Fade } from "react-awesome-reveal";
 
 const Section = styled.div`
     scroll-snap-align: center;
@@ -21,7 +22,7 @@ const Home = () => {
             </div>
             <div className="lg:min-h-screen w-full flex justify-center items-center">
                 <div className="hero-content flex-col lg:flex-row-reverse w-3/4 h-4/5 mt-10 lg:mt-0">
-                    <div className="flex-1 flex justify-center items-center h-4/5 relative">
+                    <div className="flex-1 hidden lg:flex lg:justify-center lg:items-center h-4/5 relative">
                         <Canvas style={{ height: '400px' }}>
                             <OrbitControls enableZoom={false} autoRotate />
                             <ambientLight intensity={1} />
@@ -41,8 +42,12 @@ const Home = () => {
                     </div>
                     <div className="flex-1 flex">
                         <div>
-                            <h1 className="text-white mb-2"><span className="text-4xl" id="font">Hello! I'M</span> <br />
-                                <span className="text-5xl">MD.MIRAJUL ISLAM</span></h1>
+                            <Fade direction="left">
+                                <h1 className="text-white mb-2 text-5xl">Hello! I'M</h1>
+                            </Fade>
+                            <Fade direction="right">
+                                <h1 className="text-white mb-2 text-5xl">MD.MIRAJUL ISLAM</h1>
+                            </Fade>
                             <h1 className="text-xl text-white mt-3">
                                 <span className="text-emerald-500 text-3xl">
                                     <Typewriter words={['FONT END DEVELOPER', 'MERN STACK DEVELOPER', 'REACT DEVELOPER']}
