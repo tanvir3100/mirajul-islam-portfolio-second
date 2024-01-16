@@ -1,4 +1,4 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 import Footer from "../Footer/Footer";
 import { useForm } from "react-hook-form";
 import Map from '../../Components/Map/Map'
@@ -6,9 +6,9 @@ import './Contact.css'
 
 
 
-const Section = styled.div`
-    scroll-snap-align: center;
-`
+// const Section = styled.div`
+//     scroll-snap-align: center;
+// `
 
 const Contact = () => {
     const { register, handleSubmit } = useForm();
@@ -16,7 +16,7 @@ const Contact = () => {
         console.log(data)
     }
     return (
-        <Section id="contact" className="px-4 mx-auto lg:h-[100vh]">
+        <div id="contact" className="px-4 mx-auto lg:h-[100vh]">
             <div className="lg:h-[90vh] flex flex-col lg:flex-row">
                 <div className="flex-1 mt-10 lg:mt-0">
                     <div className="hero min-h-screen w-full">
@@ -48,7 +48,7 @@ const Contact = () => {
             <div className="lg:h-[10vh]">
                 <Footer />
             </div>
-        </Section>
+        </div>
     );
 };
 

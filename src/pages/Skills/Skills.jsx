@@ -1,13 +1,13 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 import { Fade } from "react-awesome-reveal";
 
-const Section = styled.div`
-    scroll-snap-align: center;
-`
+// const Section = styled.div`
+//     scroll-snap-align: center;
+// `
 
 const Skills = () => {
     return (
-        <Section id="skills" className="px-4 md:px-6 lg:px-12 mx-auto max-w-full lg:min-h-screen flex justify-center items-center p-10">
+        <div id="skills" className="px-4 md:px-6 lg:px-12 mx-auto max-w-full lg:min-h-screen flex justify-center items-center p-10">
             <div className="h-4/5 lg:w-4/5 grid grid-cols-1 lg:grid-cols-3 gap-5 text-white lg:p-10">
                 <div className="bg-[#3d3085] h-full rounded-lg shadow-xl">
                     <Fade direction="right">
@@ -117,7 +117,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </Section>
+        </div>
     );
 };
 

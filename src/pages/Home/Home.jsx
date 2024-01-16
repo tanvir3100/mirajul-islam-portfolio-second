@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/no-unescaped-entities */
-import styled from "styled-components";
+// import styled from "styled-components";
 import { Typewriter } from 'react-simple-typewriter'
 import Navbar from '../../Components/Navbar/Navbar'
 import './Home'
@@ -9,14 +9,14 @@ import { Canvas } from "@react-three/fiber";
 import { Sphere } from "@react-three/drei";
 import { Fade } from "react-awesome-reveal";
 
-const Section = styled.div`
-    scroll-snap-align: center;
-`
+// const Section = styled.div`
+//     scroll-snap-align: center;
+// `
 
 const Home = () => {
 
     return (
-        <Section id="home" className="h-full">
+        <div id="home" className="h-full">
             <div className="fixed">
                 <Navbar />
             </div>
@@ -72,7 +72,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </Section>
+        </div>
     );
 };
 
