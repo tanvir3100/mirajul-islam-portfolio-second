@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div>
             <div>
-                <div className="navbar fixed right-0 left-0 w-full z-[5] mx-auto bg-gradient-to-r from-[#3d3085] to-[#220c5f]">
+                <div className="navbar fixed right-0 left-0 lg:max-h-screen lg:max-w-7xl z-[5] mx-auto bg-gradient-to-r from-[#3d3085] to-[#220c5f]">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
