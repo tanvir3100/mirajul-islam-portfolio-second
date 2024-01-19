@@ -13,7 +13,7 @@ const Skills = () => {
                     <Fade direction="right">
                         <div className="card-body">
                             <h2 className="card-title">Frontend!</h2>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/4mS67rT/html5-3384014-1920-removebg-preview-1.png" alt="" />
                                 </div>
@@ -21,7 +21,7 @@ const Skills = () => {
                                     <p>HTML</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/vXCqZbJ/CSS3-logo-and-wordmark-svg-removebg-preview.png" alt="" />
                                 </div>
@@ -29,7 +29,7 @@ const Skills = () => {
                                     <p>CSS</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/4dLYhL5/javascript-736400-1920.png" alt="" />
                                 </div>
@@ -37,7 +37,7 @@ const Skills = () => {
                                     <p>JavaScript</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/VTXsp0z/download-removebg-preview.png" alt="" />
                                 </div>
@@ -45,7 +45,7 @@ const Skills = () => {
                                     <p>Tailwind CSS</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/RDDzdDC/favicon-192.webp" alt="" />
                                 </div>
@@ -59,7 +59,7 @@ const Skills = () => {
                 <div className="shadow-xl bg-[#3d3085] h-full rounded-lg">
                     <div className="card-body">
                         <h2 className="card-title">Backend!</h2>
-                        <div className="flex border border-white items-center gap-5 p-2">
+                        <div className="flex border border-black items-center gap-5 p-2">
                             <div className="h-10">
                                 <img className='w-10 h-10' src="https://i.ibb.co/hcrq97n/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png" alt="" />
                             </div>
@@ -67,7 +67,7 @@ const Skills = () => {
                                 <p>Express.js</p>
                             </div>
                         </div>
-                        <div className="flex border border-white items-center gap-5 p-2">
+                        <div className="flex border border-black items-center gap-5 p-2">
                             <div className="w-20 h-10">
                                 <img className='w-20 h-10' src="https://i.ibb.co/XDwrXRr/node-js-736399-1920-removebg-preview.png" alt="" />
                             </div>
@@ -81,7 +81,7 @@ const Skills = () => {
                     <div className="card-body bg-[#3d3085] h-full rounded-lg">
                         <Fade direction="left">
                             <h2 className="card-title">Others!</h2>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/Mk7fnT7/mongodb-logo-removebg-preview.png" alt="" />
                                 </div>
@@ -89,7 +89,7 @@ const Skills = () => {
                                     <p>MongoDB</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/Mfz6JTF/json-web-tokens-jwt-io-logo-C003-DEC47-A-seeklogo-com.png" alt="" />
                                 </div>
@@ -97,7 +97,7 @@ const Skills = () => {
                                     <p>JWT</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/82PcjH5/0963a6051212c3268e25d640c0410583-removebg-preview.png" alt="" />
                                 </div>
@@ -105,7 +105,7 @@ const Skills = () => {
                                     <p>Firebase</p>
                                 </div>
                             </div>
-                            <div className="flex border border-white items-center gap-5 p-2">
+                            <div className="flex border border-black items-center gap-5 p-2">
                                 <div className="w-10 h-10">
                                     <img className='w-10 h-10' src="https://i.ibb.co/P6kPhQp/github-6980894-1920.png" alt="" />
                                 </div>
