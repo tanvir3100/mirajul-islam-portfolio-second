@@ -17,9 +17,10 @@ const MyProjects = () => {
             <TextTitle
                 header='MY PROJECTS' />
             <div className="hero">
-                <div className="hero-content flex-col lg:flex-row w-full">
-                    <div id="bg" className="flex-1 w-full h-[350px] bg-top hover:bg-bottom bg-cover border border-white transition-all ease-in-out duration-700 delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png)' }}>
+                <div className="hero-content flex-col lg:flex-row w-full h-full">
+                    <div id="bg" className="flex-1 w-full h-[350px] lg:bg-top lg:hover:bg-bottom bg-cover border border-white lg:transition-all lg:ease-in-out lg:duration-700 lg:delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png)' }}>
                         {/* <img src="https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png" className="rounded-lg shadow-2xl w-full h-96 bg-cover" /> */}
+                        
                     </div>
                     <div className="flex-1 w-full text-white">
                         <h1 className="text-3xl">Projects:Projects Name</h1>
@@ -29,7 +30,7 @@ const MyProjects = () => {
             </div>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row-reverse w-full">
-                    <div id="bg" className="flex-1 w-full h-[350px] bg-top hover:bg-bottom bg-cover border border-white transition-all ease-in-out duration-700 delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/VvJNy9t/screencapture-localhost-5173-2024-01-20-14-15-10.png)' }}>
+                    <div id="bg" className="flex-1 w-full h-96 bg-top hover:bg-bottom bg-cover border border-white transition-all ease-in-out duration-700 delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/VvJNy9t/screencapture-localhost-5173-2024-01-20-14-15-10.png)' }}>
                         {/* <img src="https://i.ibb.co/VvJNy9t/screencapture-localhost-5173-2024-01-20-14-15-10.png" className="rounded-lg shadow-2xl w-full h-96" /> */}
                     </div>
                     <div className="flex-1 w-full text-white">
