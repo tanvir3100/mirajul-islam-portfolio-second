@@ -16,7 +16,7 @@ import { Fade } from "react-awesome-reveal";
 const Home = () => {
 
     return (
-        <div id="home" className="h-full">
+        <div id="home" className="h-full w-full">
             <div className="">
                 <Navbar />
             </div>
@@ -26,10 +26,10 @@ const Home = () => {
                         <h1 className="text-white mb-2 text-3xl" style={{ fontFamily: '"Boogaloo", sans-serif', }}>Hello. I a’m mirajul Islam</h1>
                     </Fade>
                     <Fade direction="right">
-                        <h1 className="animated-gradient-text mb-2 text-[120px] text-center p-0 m-0 leading-tight" style={{ fontFamily: '"Francois One", sans-serif', }}>web developer &</h1>
+                        <h1 className="animated-gradient-text mb-2 text-3xl sm:text-5xl md:text-7xl text-[20px] lg:text-[120px] text-center p-0 m-0 leading-tight" style={{ fontFamily: '"Francois One", sans-serif', }}>web developer &</h1>
                     </Fade>
                     <Fade direction="left">
-                        <h1 className="animated-gradient-text leading-tight mb-2 text-[120px] text-center" style={{ fontFamily: '"Francois One", sans-serif', }}>web designer</h1>
+                        <h1 className="animated-gradient-text leading-tight mb-2 text-3xl sm:text-3xl md:text-5xl lg:text-[120px] text-center" style={{ fontFamily: '"Francois One", sans-serif', }}>web designer</h1>
                     </Fade>
                     {/* <h1 className="text-xl text-white my-3">
                         <span className="text-emerald-500 text-3xl">

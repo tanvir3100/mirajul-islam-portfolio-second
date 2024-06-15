@@ -17,7 +17,7 @@ const AboutMe = () => {
                 <div className="hero-content flex-col lg:flex-row w-full h-4/5 mt-10 lg:mt-0">
                     <div className="flex-1">
                         <Fade direction="right">
-                            <h1 className="animated-gradient-text text-[100px] text-center p-0 m-0 leading-tight" style={{ fontFamily: '"Francois One", sans-serif', }}>1+ year OF</h1>
+                            <h1 className="animated-gradient-text text-[20px] text-center p-0 m-0 leading-tight" style={{ fontFamily: '"Francois One", sans-serif', }}>1+ year OF</h1>
                         </Fade>
                         <Fade direction="left">
                             <h1 className="animated-gradient-text text-[100px] text-center p-0 m-0 leading-tight relative left-48" style={{ fontFamily: '"Francois One", sans-serif', }}>experience</h1>
