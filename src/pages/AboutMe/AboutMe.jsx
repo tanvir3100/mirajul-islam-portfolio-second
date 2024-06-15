@@ -12,22 +12,30 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
     return (
         <div id="about">
-            <div className="lg:min-h-screen w-full flex justify-center items-center">
-                <div className="hero-content flex-col lg:flex-row w-3/4 h-4/5 mt-10 lg:mt-0">
-                    <div className="flex-1 flex justify-center items-center h-4/5 relative">
-                        <Fade direction="up" style={{ zIndex: 10 }}>
-                            <div className="mr-10 z-10">
-                                <img src="https://i.ibb.co/3Y65jnT/rsz-11untitled-design.jpg" className="max-w-80 rounded-xl" />
-                            </div>
+            <p className="text-sm text-center text-[#AAAAAA]">About Me</p>
+            <div className="lg:min-h-[96vh] w-full flex justify-center items-center">
+                <div className="hero-content flex-col lg:flex-row w-full h-4/5 mt-10 lg:mt-0">
+                    <div className="flex-1">
+                        <Fade direction="right">
+                            <h1 className="animated-gradient-text text-[100px] text-center p-0 m-0 leading-tight" style={{ fontFamily: '"Francois One", sans-serif', }}>1+ year OF</h1>
+                        </Fade>
+                        <Fade direction="left">
+                            <h1 className="animated-gradient-text text-[100px] text-center p-0 m-0 leading-tight relative left-48" style={{ fontFamily: '"Francois One", sans-serif', }}>experience</h1>
+                        </Fade>
+                        <Fade direction="up">
+                            <p className="text-white w-4/6">
+                                I craft stunning, responsive websites that
+                                deliver outstanding user experiences.
+                                Welcome to my portfolio!
+                            </p>
                         </Fade>
                     </div>
-                    <div className="flex-1 flex">
-                        <div>
-                            <Fade direction="down">
-                                <h1 className="text-5xl text-white mb-3">About</h1>
-                                <p className="text-white text-justify">I am MD. Mirjul Islam, a final-year honors student with a passion for crafting responsive and modern web applications.I am seeking a dynamic working environment where I can further my learning, explore new challenges, and elevate my development skills to the next level. In the last six months, I successfully completed an intensive web development course focused on the MERN stack (MongoDB, Express.js, React.js, and Node.js). This comprehensive training has equipped me with a solid foundation in full-stack development, enabling me to build scalable and efficient applications. I am excited to apply these skills in a real-world setting and contribute to innovative projects while continuing to expand my knowledge and expertise in web development.</p>
-                            </Fade>
-                        </div>
+                    <div className="h-4/5 flex-1">
+                        <Fade direction="up" style={{ zIndex: 10 }}>
+                            <div>
+                                <img className="w-" src="https://i.ibb.co/TTprbj9/no-bg.png" />
+                            </div>
+                        </Fade>
                     </div>
                 </div>
             </div>

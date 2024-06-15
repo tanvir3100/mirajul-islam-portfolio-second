@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes gradient-background {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient-text {
+    font-family: 'Francois One', sans-serif;
+    font-size: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #C2FF3F, #76D9FF, #C2FF3F, #76D9FF);
+    background-size: 300% 300%;
+    animation: gradient-background 12s ease infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

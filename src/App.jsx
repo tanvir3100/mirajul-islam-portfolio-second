@@ -11,7 +11,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-[#3d3085] to-[#220c5f]">
+    <div className="bg-[#151518]">
       <div>
         <section>
           <Home />
