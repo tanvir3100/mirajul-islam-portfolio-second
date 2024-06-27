@@ -18,7 +18,6 @@
 
 .animated-gradient-text {
     font-family: 'Francois One', sans-serif;
-    font-size: 120px;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -28,3 +27,4 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
