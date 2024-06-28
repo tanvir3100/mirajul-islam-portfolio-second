@@ -16,7 +16,7 @@ const Contact = () => {
         console.log(data)
     }
     return (
-        <div id="contact" className="px-4 mx-auto lg:h-[100vh]">
+        <div id="contact" className="px-4 mx-auto h-full">
             <div className="lg:h-[90vh] flex flex-col lg:flex-row">
                 <div className="flex-1 mt-10 lg:mt-0">
                     <div className="hero min-h-screen w-full">
@@ -45,7 +45,7 @@ const Contact = () => {
                     <Map />
                 </div>
             </div>
-            <div className="lg:h-[10vh]">
+            <div>
                 <Footer />
             </div>
         </div>

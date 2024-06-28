@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 // import styled from "styled-components";
-import TextTitle from "../../hooks/TextTitle";
+// import TextTitle from "../../hooks/TextTitle";
 import './MyProjects'
 
 
@@ -13,17 +13,15 @@ import './MyProjects'
 const MyProjects = () => {
 
     return (
-        <div id="myProjects" className="px-4 md:px-6 lg:px-12 mx-auto">
-            <TextTitle
-                header='MY PROJECTS' />
+        <div id="myProjects" className="px-4 md:px-6 lg:px-12 mx-auto lg:min-h-[96vh] w-full">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white mb-3 text-center pt-10" style={{ fontFamily: '"Boogaloo", sans-serif', }}>My Recent Work</h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row w-full h-full">
                     <div id="bg" className="flex-1 w-full lg:h-[350px] lg:bg-top lg:hover:bg-bottom bg-cover border border-white lg:transition-all lg:ease-in-out lg:duration-700 lg:delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png)' }}>
                         {/* <img src="https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png" className="rounded-lg shadow-2xl w-full h-96 bg-cover" /> */}
-                        
                     </div>
                     <div className="flex-1 w-full text-white">
-                        <h1 className="text-3xl">Projects:Projects Name</h1>
+                        <h1 className="text-3xl">House hold</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur minus ullam quam rerum sequi eveniet porro, natus mollitia non ab sint voluptas repellat similique facere ratione sunt quia aperiam labore cum minima animi accusantium. Fuga ipsa eius quisquam maxime aliquam et aut consectetur, quae mollitia. Nisi porro vitae delectus laboriosam doloremque, pariatur nesciunt facere neque, expedita necessitatibus beatae odit eveniet tempore aut deleniti ipsum inventore officia voluptates amet non? Laudantium reprehenderit porro, ipsam neque repellendus ea, fugit, ad consectetur praesentium rem obcaecati nobis animi aperiam labore adipisci amet deleniti! Quibusdam rerum quia reiciendis doloribus accusamus qui cum veritatis illo hic.</p>
                     </div>
                 </div>

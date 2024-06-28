@@ -8,92 +8,94 @@ import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
     return (
-        <div id="skills" className="max-w-full lg:min-h-screen">
-            <div className="mt-10 w-3/6 mx-auto">
-                <div>
-                    <Fade direction="down">
-                        <h1 className="text-5xl text-white mb-3 text-center">My Soft Skills </h1>
-                        <p className="text-white text-justify">Hi, I am Mirajul Islam, a skilled Front-End Web Developer and Web Designer with a passion for creating beautiful and functional websites. With expertise in HTML, CSS, JavaScript, and frameworks like React, I bring both creativity and technical proficiency to my projects. I strive to build responsive, user-friendly sites that provide seamless experiences across all devices.</p>
-                    </Fade>
+        <div id="skills" className="max-w-full lg:min-h-screen flex justify-center items-center">
+            <div>
+                <div className="mt-10 w-3/6 mx-auto">
+                    <div>
+                        <Fade direction="down">
+                            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white mb-3 text-center" style={{ fontFamily: '"Boogaloo", sans-serif', }}>My Soft Skills </h1>
+                            <p className="text-white text-justify">Hi, I am Mirajul Islam, a skilled Front-End Web Developer and Web Designer with a passion for creating beautiful and functional websites. With expertise in HTML, CSS, JavaScript, and frameworks like React, I bring both creativity and technical proficiency to my projects. I strive to build responsive, user-friendly sites that provide seamless experiences across all devices.</p>
+                        </Fade>
+                    </div>
                 </div>
-            </div>
-            <div className="w-4/5 h-4/6 flex justify-center items-center p-10 mt-0 mx-auto">
-                <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 text-white justify-center items-center">
-                    <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
-                        <Fade direction="right">
-                            <div className="card-body">
-                                <div className="flex justify-start items-center gap-3">
-                                    <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29]">
-                                        <img src="https://i.ibb.co/ggtjDq2/image-1.png" alt="" />
+                <div className="w-4/5 h-4/6 flex justify-center items-center p-10 mt-0 mx-auto">
+                    <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 text-white justify-center items-center">
+                        <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
+                            <Fade direction="right">
+                                <div className="p-3">
+                                    <div className="flex justify-start items-center gap-3">
+                                        <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29]">
+                                            <img src="https://i.ibb.co/ggtjDq2/image-1.png" alt="" />
+                                        </div>
+                                        <h2 className="card-title text-3xl">React.js</h2>
                                     </div>
-                                    <h2 className="card-title text-3xl">React.js</h2>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <div>
-                                    <p className="text-end">70%</p>
-                                </div>
-                                <div>
-                                    <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
-                                </div>
-                            </div>
-                        </Fade>
-                    </div>
-                    <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
-                        <Fade direction="right">
-                            <div className="card-body">
-                                <div className="flex justify-start items-center gap-3">
-                                    <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29]">
-                                        <img src="https://i.ibb.co/ggtjDq2/image-1.png" alt="" />
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div>
+                                        <p className="text-end">70%</p>
                                     </div>
-                                    <h2 className="card-title text-3xl">React.js</h2>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <div>
-                                    <p className="text-end">70%</p>
-                                </div>
-                                <div>
-                                    <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
-                                </div>
-                            </div>
-                        </Fade>
-                    </div>
-                    <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
-                        <Fade direction="right">
-                            <div className="card-body">
-                                <div className="flex justify-start items-center gap-3">
-                                    <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29]">
-                                        <img src="https://i.ibb.co/ggtjDq2/image-1.png" alt="" />
+                                    <div>
+                                        <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
                                     </div>
-                                    <h2 className="card-title text-3xl">React.js</h2>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <div>
-                                    <p className="text-end">70%</p>
-                                </div>
-                                <div>
-                                    <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
-                                </div>
-                            </div>
-                        </Fade>
-                    </div>
-                    <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
-                        <Fade direction="right">
-                            <div className="card-body">
-                                <div className="flex justify-start items-center gap-3">
-                                    <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29]">
-                                        <img src="https://i.ibb.co/ggtjDq2/image-1.png" alt="" />
+                            </Fade>
+                        </div>
+                        <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
+                            <Fade direction="right">
+                                <div className="p-3">
+                                    <div className="flex justify-start items-center gap-3">
+                                        <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29] flex justify-center items-center">
+                                            <img className="w-3/4" src="https://i.ibb.co/gVTSd4k/image-5.png" alt="" />
+                                        </div>
+                                        <h2 className="card-title text-3xl">Wordpress</h2>
                                     </div>
-                                    <h2 className="card-title text-3xl">React.js</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div>
+                                        <p className="text-end">70%</p>
+                                    </div>
+                                    <div>
+                                        <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
+                                    </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <div>
-                                    <p className="text-end">70%</p>
+                            </Fade>
+                        </div>
+                        <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
+                            <Fade direction="right">
+                                <div className="p-3">
+                                    <div className="flex justify-start items-center gap-3">
+                                        <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29] flex justify-center items-center">
+                                            <img src="https://i.ibb.co/TDQz2kP/image-6.png" alt="" />
+                                        </div>
+                                        <h2 className="card-title text-3xl">figma</h2>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div>
+                                        <p className="text-end">70%</p>
+                                    </div>
+                                    <div>
+                                        <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
+                                    </div>
                                 </div>
-                                <div>
-                                    <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
+                            </Fade>
+                        </div>
+                        <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
+                            <Fade direction="right">
+                                <div className="p-3">
+                                    <div className="flex justify-start items-center gap-3">
+                                        <div className="border border-none rounded-full w-10 h-10 bg-gradient-to-r from-[#0F0715] to-[#1B0D29] flex justify-center items-center">
+                                            <img className="w-3/4" src="https://i.ibb.co/2M7xZHN/image-7.png" alt="" />
+                                        </div>
+                                        <h2 className="card-title text-3xl">Talwind</h2>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <div>
+                                        <p className="text-end">70%</p>
+                                    </div>
+                                    <div>
+                                        <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
+                                    </div>
                                 </div>
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
                     </div>
                 </div>
             </div>

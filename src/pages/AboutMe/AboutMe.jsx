@@ -12,7 +12,6 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
     return (
         <div id="about">
-            <p className="text-sm text-center text-[#AAAAAA]">About Me</p>
             <div className="lg:min-h-[96vh] px-4 sm:px-6 md:px-12 lg:px-32 mx-auto w-full flex justify-center items-center">
                 <div className="hero-content flex-col lg:flex-row w-full h-4/5 mt-10 lg:mt-0">
                     <div className="flex-1">
