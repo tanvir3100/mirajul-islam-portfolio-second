@@ -1,3 +1,9 @@
 #input{
     background-color: transparent;
 }
+#contact{
+    overflow: hidden;
+}
+#marquee-text{
+    overflow: hidden;
+}

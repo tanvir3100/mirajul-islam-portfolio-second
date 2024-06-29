@@ -23,7 +23,12 @@ const Navbar = () => {
                                 <li><Link className="hover:text-black" to="contact">Contact</Link></li>
                             </ul>
                         </div>
-                        <Link to="home" className="btn btn-ghost text-xl text-white" id="logo">Mirajul Islam</Link>
+                        <Link to="home" className="btn btn-ghost text-xl text-white" id="logo">
+                        <div className="flex justify-center items-center">
+                            <img className="w-12 h-12" src="https://i.ibb.co/2gDsp60/tnavirlogo-removebg-preview-2.png" alt="" />
+                            <p>Mirajul Islam</p>
+                        </div>
+                        </Link>
                     </div>
                     <div className="navbar-end hidden lg:flex">
                         <ul tabIndex={0} className="menu menu-horizontal px-1 w-full text-white justify-end text-lg z-50">
