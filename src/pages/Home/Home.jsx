@@ -21,6 +21,16 @@ const Home = () => {
                 <div className="">
                     <Navbar />
                 </div>
+                <div className='absolute w-full h-60 right-[200px] flex items-center'>
+                    <div className='w-96 h-96'>
+                        <iframe className='w-full h-full' src="https://lottie.host/embed/48f2932c-03eb-4c0d-bb98-8b9e4bb2cc67/ky8ql3s3Xz.json"></iframe>
+                    </div>
+                </div>
+                <div className='absolute w-full h-60 left-[1220px] pt-[600px] flex items-center rotate-12'>
+                    <div className='w-96 h-96'>
+                        <iframe src="https://lottie.host/embed/3e0bce21-477f-458b-b1c5-386e993a5e83/iktcQKtbu5.json"></iframe>
+                    </div>
+                </div> 
                 <div className="h-[90vh] w-full px-4 sm:px-6 md:px-12 lg:px-32 mx-auto flex justify-center items-center">
                     <div className=''>
                         <Fade direction="left">
@@ -64,28 +74,6 @@ const Home = () => {
                                     </p>
                                 </Fade>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="hero-content flex-col lg:flex-row-reverse w-3/4 h-4/5 mt-10 lg:mt-0">
-                            {/* <div className="flex-1 hidden lg:flex lg:justify-center lg:items-center h-4/5 relative">
-                        <Canvas style={{ height: '400px' }}>
-                            <OrbitControls enableZoom={false} autoRotate />
-                            <ambientLight intensity={1} />
-                            <directionalLight position={[3, 2, 1]} />
-                            <Sphere args={[1, 100, 200]} scale={2.5}>
-                                <MeshDistortMaterial
-                                    color={'#3d3085'}
-                                    attach='material'
-                                    distort={0.5}
-                                    speed={2}
-                                />
-                            </Sphere>
-                        </Canvas>
-                        <div className="z-50 absolute mr-10">
-                            <img src="https://i.ibb.co/tZHWnC1/1700749319053.png" className="max-w-sm" />
-                        </div>
-                    </div> */}
                         </div>
                     </div>
                 </div>

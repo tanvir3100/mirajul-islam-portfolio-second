@@ -1,9 +1,13 @@
-#input{
+#input {
     background-color: transparent;
 }
-#contact{
+
+#contact {
     overflow: hidden;
 }
-#marquee-text{
+
+#marquee-text {
     overflow: hidden;
 }
+
+

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="w-full h-[38vh]">
+        <div className="w-full h-[20vh]">
             <div className="px-4 md:px-6 lg:px-12 mx-auto">
                 <hr className="w-full bg-gradient-to-r from-[#C2FF3F] to-[#76D9FF] mx-auto" />
                 <div className="flex justify-between items-center text-white my-0 py-0">

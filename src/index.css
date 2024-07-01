@@ -27,4 +27,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.animated-gradient-marquee-text { 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #C2FF3F, #76D9FF, #C2FF3F, #76D9FF);
+    background-size: 300% 300%;
+    animation: gradient-background 12s ease infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 

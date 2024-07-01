@@ -12,6 +12,21 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
     return (
         <div id="about">
+            <div className='absolute w-full h-60 left-[788px] mt-36 flex items-center'>
+                <div className='w-96 h-96'>
+                    <iframe className='w-full h-full' src="https://lottie.host/embed/cb5403ca-c661-4792-98d7-75269357121b/xzZh3oJHqN.json"></iframe>
+                </div>
+            </div>
+            <div className='absolute w-full h-60 right-[160px] pt-[450px] mt-36 flex items-center'>
+                <div className='w-96 h-96'>
+                    <iframe src="https://lottie.host/embed/03f0357c-d02d-48ed-9565-3e8e4443dc8b/xw7l7buBFw.json"></iframe>
+                </div>
+            </div>
+            <div className='absolute w-full h-60 left-[1000px] mb-10 mt-36 flex items-center'>
+                <div className='w-96 h-96'>
+                <iframe className="w-3/4 h-3/4" src="https://lottie.host/embed/0fa1b150-145e-4854-8e43-df5e11f93d47/myNy3A8ejd.json"></iframe>
+                </div>
+            </div>
             <div className="lg:min-h-[96vh] px-4 sm:px-6 md:px-12 lg:px-32 mx-auto w-full flex justify-center items-center">
                 <div className="hero-content flex-col lg:flex-row w-full h-4/5 mt-10 lg:mt-0">
                     <div className="flex-1">
