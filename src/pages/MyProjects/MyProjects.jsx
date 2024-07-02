@@ -17,7 +17,7 @@ const MyProjects = () => {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white mb-3 text-center pt-10" style={{ fontFamily: '"Boogaloo", sans-serif', }}>My Recent Work</h1>
             <div className="hero">
                 <div className="hero-content flex-col lg:flex-row w-full h-full">
-                    <div id="bg" className="flex-1 w-full lg:h-[350px] lg:bg-top lg:hover:bg-bottom bg-cover border border-white lg:transition-all lg:ease-in-out lg:duration-700 lg:delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png)' }}>
+                    <div id="bg" className="flex-1 w-full h-screen lg:h-[350px] lg:bg-top lg:hover:bg-bottom bg-cover border border-white lg:transition-all lg:ease-in-out lg:duration-700 lg:delay-700" style={{ backgroundImage: 'url(https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png)' }}>
                         {/* <img src="https://i.ibb.co/4T5PYTs/screencapture-localhost-5173-2024-01-19-16-17-52.png" className="rounded-lg shadow-2xl w-full h-96 bg-cover" /> */}
                     </div>
                     <div className="flex-1 w-full text-white">
