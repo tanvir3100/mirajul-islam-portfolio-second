@@ -12,17 +12,17 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
     return (
         <div id="about">
-            <div className='absolute w-full h-60 left-[788px] mt-36 flex items-center'>
+            <div className='absolute w-full h-60 left-[300px] sm:left-[400px] md:left-[500px] lg:left-[788px] mt-36 flex items-center'>
                 <div className='w-96 h-96'>
                     <iframe className='w-full h-full' src="https://lottie.host/embed/cb5403ca-c661-4792-98d7-75269357121b/xzZh3oJHqN.json"></iframe>
                 </div>
             </div>
-            <div className='absolute w-full h-60 right-[160px] pt-[450px] mt-36 flex items-center'>
-                <div className='w-96 h-96'>
-                    <iframe src="https://lottie.host/embed/03f0357c-d02d-48ed-9565-3e8e4443dc8b/xw7l7buBFw.json"></iframe>
+            <div className='absolute w-full h-60 right-[10px] pt-[50px] flex items-center'>
+                <div className='w-44 h-w-44'>
+                    <iframe className="w-2/4 h-2/4" src="https://lottie.host/embed/03f0357c-d02d-48ed-9565-3e8e4443dc8b/xw7l7buBFw.json"></iframe>
                 </div>
             </div>
-            <div className='absolute w-full h-60 left-[1000px] mb-10 mt-36 flex items-center'>
+            <div className='absolute w-full h-60 right-[50px] mb-10  flex items-center'>
                 <div className='w-96 h-96'>
                 <iframe className="w-3/4 h-3/4" src="https://lottie.host/embed/0fa1b150-145e-4854-8e43-df5e11f93d47/myNy3A8ejd.json"></iframe>
                 </div>

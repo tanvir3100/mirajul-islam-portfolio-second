@@ -10,6 +10,11 @@ const Skills = () => {
     return (
         <div id="skills" className="max-w-full lg:min-h-screen flex justify-center items-center">
             <div>
+                <div className='absolute w-full h-60 left-[300px] sm:left-[400px] md:left-[500px] lg:left-[788px] mt-36 flex items-center'>
+                    {/* <div className='w-[500px] h-[500px]'>
+                        <iframe className="w-full h-full" src="https://lottie.host/embed/8897ef8e-e683-4d97-bc56-d1975ef971b4/VxVSg5uaKD.json"></iframe>
+                    </div> */}
+                </div>
                 <div className="mt-10 w-3/6 mx-auto">
                     <div>
                         <Fade direction="down">
