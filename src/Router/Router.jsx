@@ -44,7 +44,7 @@ const Router = () => {
                 </div>
             </div>
 
-            <div>
+            {/* <div>
                 <div className="navbar fixed right-0 left-0 w-full max-w-screen-xl mx-auto opacity-50">
                     <div className="navbar-start">
                         <div className="dropdown">
@@ -73,7 +73,7 @@ const Router = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

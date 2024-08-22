@@ -13,13 +13,13 @@ const Contact = () => {
     }
     return (
         <div id="contact" className="px-4 mx-auto h-full pt-10 pb-20 overflow-hidden"> {/* Added pb-20 and overflow-hidden */}
-            <div className="h-[50vh] flex justify-center items-center">
-                <div className="">
+            <div className="h-[50vh] flex justify-center items-center overflow-hidden">
+                <div className="overflow-hidden">
                     <Marquee pauseOnHover className="h-full m-0 p-0 overflow-hidden">
                         <p className="animated-gradient-marquee-text border-text text-8xl tracking-wide">WEB DEVELOPER & WEB DESIGNER*</p>
                     </Marquee>
                     <Marquee pauseOnHover className="h-full m-0 p-0 overflow-hidden" direction="right">
-                        <p className="animated-gradient-marquee-text text-8xl tracking-wide text-white">WEB DEVELOPER & WEB DESIGNER*</p>
+                        <p className="animated-gradient-marquee-text text-8xl tracking-wide text-white overflow-hidden">WEB DEVELOPER & WEB DESIGNER*</p>
                     </Marquee>
                 </div>
             </div>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    overflow-x: hidden;
+}
+
 @keyframes gradient-background {
     0% {
         background-position: 0% 50%;
