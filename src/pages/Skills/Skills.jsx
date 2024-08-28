@@ -88,10 +88,10 @@ const Skills = () => {
                                     </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     <div>
-                                        <p className="text-end">70%</p>
+                                        <p className="text-end">85%</p>
                                     </div>
                                     <div>
-                                        <progress class="progress progress-accent w-full bg-black" value="70" max="100"></progress>
+                                        <progress class="progress progress-accent w-full bg-black" value="85" max="100"></progress>
                                     </div>
                                 </div>
                             </Fade>

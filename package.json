@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
     "gsap": "^3.12.4",
@@ -24,7 +25,7 @@
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.21.1",
     "react-scroll": "^1.9.0",
-    "react-simple-maps": "^1.0.0",
+    "react-simple-maps": "^3.0.0",
     "react-simple-typewriter": "^5.0.1",
     "react-ts-typewriter": "^0.1.8-b",
     "react-use": "^17.5.0",
