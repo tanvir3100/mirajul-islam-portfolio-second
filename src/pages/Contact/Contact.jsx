@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import Footer from "../Footer/Footer";
-import Map from '../../Components/Map/Map';
+// import Map from '../../Components/Map/Map';
 import './Contact.css';
 import Marquee from "react-fast-marquee";
 
@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="w-full flex-1 hidden lg:block">
-                    <Map />
+                    {/* <Map /> */}
                 </div>
             </div>
             <div>
