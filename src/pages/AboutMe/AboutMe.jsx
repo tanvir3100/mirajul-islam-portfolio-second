@@ -47,7 +47,7 @@ const AboutMe = () => {
                     <div className="h-4/5 flex-1">
                         <Fade direction="up" style={{ zIndex: 10 }}>
                             <div>
-                                <img className="w-" src="https://i.ibb.co/TTprbj9/no-bg.png" />
+                                <img className="w-" src="https://i.ibb.co/1nBNrF8/bg-tanvir-2-1.png" />
                             </div>
                         </Fade>
                     </div>
