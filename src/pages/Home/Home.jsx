@@ -11,11 +11,6 @@ const Home = () => {
                 <div className="">
                     <Navbar />
                 </div>
-                <div className='absolute w-full h-60 right-[70px] sm:right-[200px] md:right-[200px] lg:right-[200px] flex items-center'>
-                    <div className='w-32 sm:w-40 md:w-56 lg:w-96 h-32 sm:h-40 md:h-56 lg:h-96'>
-                        <iframe className='w-full h-full' src="https://lottie.host/embed/48f2932c-03eb-4c0d-bb98-8b9e4bb2cc67/ky8ql3s3Xz.json"></iframe>
-                    </div>
-                </div>
                 <div className="h-[80vh] sm:h-[70vh] md:h-[90vh] lg:h-[90vh] w-full px-4 sm:px-6 md:px-12 lg:px-32 mx-auto flex justify-center items-center">
                     <div className=''>
                         <Fade direction="left">

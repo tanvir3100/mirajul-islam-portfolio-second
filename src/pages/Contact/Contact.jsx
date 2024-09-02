@@ -10,10 +10,10 @@ const Contact = () => {
 
     const onSubmit = (data) => {
         emailjs.send(
-            'service_b9tlqnn', // Replace with your service ID
-            'template_volsvyh', // Replace with your template ID
+            'service_b9tlqnn',
+            'template_volsvyh',
             data,
-            '_J5mzO8d_LMNIET0o' // Replace with your user ID
+            '_J5mzO8d_LMNIET0o'
         ).then((result) => {
             console.log(result.text);
             alert("Message sent successfully!");
@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="hero w-full">
                         <div className="hero-content w-full md:w-2/4 lg:w-3/4 flex-col lg:flex-row-reverse pl:pl-0 lg:pl-20">
                             <div className="card shrink-0 w-full rounded-none p-0 md:p-6 lg:p-0">
-                                <form className="card-body w-full" onSubmit={handleSubmit(onSubmit)}>
+                                <form className="card-body w-full p-0 m-0" onSubmit={handleSubmit(onSubmit)}>
                                     <h3 className="text-4xl text-white">CONTACT</h3>
                                     <div className="form-control">
                                         <input id="name" {...register("name")} type="text" placeholder="name" className="input input-bordered transparent-background rounded-full bg-gradient-to-r from-[#0F0715] to-[#1B0D29] border-[#8A54F7] text-white" required />

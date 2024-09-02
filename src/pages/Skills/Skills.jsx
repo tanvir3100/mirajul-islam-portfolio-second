@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div id="skills" className="max-w-full lg:min-h-screen flex justify-center items-center">
             <div>
-                <div className="mt-10 w-3/6 mx-auto">
+                <div className="mt-10 px-10 w-full md:4/6 lg:w-3/6 mx-auto">
                     <div>
                         <Fade direction="down">
                             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-white mb-3 text-center" style={{ fontFamily: '"Boogaloo", sans-serif', }}>My Soft Skills </h1>
@@ -18,7 +18,7 @@ const Skills = () => {
                         </Fade>
                     </div>
                 </div>
-                <div className="w-4/5 h-4/6 flex justify-center items-center p-10 mt-0 mx-auto">
+                <div className="w-full md:w-4/5 lg:w-4/5 h-4/6 flex justify-center items-center p-10 mt-0 mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 text-white justify-center items-center">
                         <div className="bg-[#1E1E1E]s rounded-lg shadow-xl border border-[#8A54F7] h-full w-full">
                             <Fade direction="right">

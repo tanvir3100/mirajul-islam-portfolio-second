@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <div className="w-full h-full flex justify-between items-center">
                     <div>
-                        <h1 className="text-9xl text-center text-white mb-0 pb-0 mt-0 pt-0" style={{ fontFamily: '"Koulen", sans-serif', margin: 0, padding: 0 }}>Mirajul Isalam</h1>
+                        <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-9xl text-center text-white mb-0 pb-0 mt-0 pt-0" style={{ fontFamily: '"Koulen", sans-serif', margin: 0, padding: 0 }}>Mirajul Isalam</h1>
                     </div>
                     <div>
                         <img src="https://i.ibb.co/2gDsp60/tnavirlogo-removebg-preview-2.png" alt="" />
