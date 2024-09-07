@@ -47,7 +47,7 @@ const Contact = () => {
                                         <input id="name" {...register("name")} type="text" placeholder="name" className="input input-bordered transparent-background rounded-full bg-gradient-to-r from-[#0F0715] to-[#1B0D29] border-[#8A54F7] text-white" required />
                                     </div>
                                     <div className="form-control">
-                                        <input id="email_id"  {...register("email")} type="email" placeholder="email" className="input input-bordered rounded-full bg-gradient-to-r from-[#0F0715] to-[#1B0D29] border-[#8A54F7] text-white" required />
+                                        <input id="email_id"  {...register("email_id")} type="email" placeholder="email" className="input input-bordered rounded-full bg-gradient-to-r from-[#0F0715] to-[#1B0D29] border-[#8A54F7] text-white" required />
                                     </div>
                                     <div className="form-control">
                                         <textarea  {...register("message")} className="textarea textarea-bordered  rounded-2xl bg-gradient-to-r from-[#0F0715] to-[#1B0D29] border-[#8A54F7] bg-transparent h-32 text-white" placeholder="Your Message"></textarea>
